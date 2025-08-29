@@ -1,4 +1,4 @@
-import FlyonuiScript from "@/components/FlyonuiScript";
+import FlyonuiScript from "@/components/scripts/FlyonuiScript";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 
