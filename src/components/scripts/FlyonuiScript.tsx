@@ -1,6 +1,11 @@
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 
+/**
+ * This function dynamically imports the FlyonUI library.
+ * https://flyonui.com/docs/framework-integrations/nextjs
+ */
+
 async function loadFlyonUI() {
   return import("flyonui/flyonui");
 }
