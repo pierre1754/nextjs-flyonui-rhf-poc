@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Navbar } from "../molecules/Navbar";
+import ThemeChanger from "../molecules/ThemeChanger";
 
 export function MainNavbar() {
   return (
@@ -14,6 +15,7 @@ export function MainNavbar() {
         <Link href="/">Home</Link>,
         <Link href="/services">Services</Link>,
         <Link href="/contact">Contact us</Link>,
+        <ThemeChanger />,
       ]}
     />
   );
