@@ -1,3 +1,4 @@
+import Footer from "@/components/organisms/Footer";
 import { MainNavbar } from "@/components/organisms/MainNavbar";
 
 export default function Home() {
@@ -7,7 +8,7 @@ export default function Home() {
 
       <div className="flex-grow">CONTENT</div>
 
-      <div className="flex-grow">FOOTER</div>
+      <Footer />
     </div>
   );
 }
