@@ -12,10 +12,13 @@ export function MainNavbar() {
         </Link>
       }
       items={[
-        <Link href="/">Home</Link>,
-        <Link href="/services">Services</Link>,
-        <Link href="/contact">Contact us</Link>,
-        <ThemeChanger />,
+        <Link key="home" href="/">
+          Home
+        </Link>,
+        <Link key="login" href="/login">
+          Login
+        </Link>,
+        <ThemeChanger key="theme-changer" />,
       ]}
     />
   );
